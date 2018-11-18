@@ -1,0 +1,29 @@
+{
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "rules": {
+    "react/no-unused-prop-types": [
+      0
+    ],
+    "no-floating-decimal": 0,
+    "react/prop-types": "off",
+    "no-use-before-define": 0,
+    "comma-dangle": 0,
+    "linebreak-style": 0,
+    "no-undef": 0,
+    "import/no-unresolved": 0
+  }
+}
